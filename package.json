@@ -1,0 +1,30 @@
+{
+  "name": "designpetterns",
+  "version": "1.0.0",
+  "description": "design patterns examples",
+  "scripts": {
+    "test": "npx nyc mocha 'tests/**/*.spec.js' && npx nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorDevP/Design-Patterns.git"
+  },
+  "keywords": [
+    "dessign",
+    "patterns",
+    "nodeJs",
+    "javascript",
+    "course"
+  ],
+  "author": "V Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorDevP/Design-Patterns/issues"
+  },
+  "homepage": "https://github.com/VitorDevP/Design-Patterns#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
+}
